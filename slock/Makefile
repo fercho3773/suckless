@@ -14,7 +14,7 @@ all: slock
 ${OBJ}: config.h config.mk arg.h util.h
 
 config.h:
-#	cp config.def.h $@
+	cp config.def.h $@
 
 slock: ${OBJ}
 	${CC} -o $@ ${OBJ} ${LDFLAGS}
