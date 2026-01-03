@@ -125,11 +125,11 @@ static const Rule rules[] = {
 	RULE(.instance  = "spterm",         .tags = SPTAG(0), .isfloating = 1)
 };
 
-static const char buttonbar[]  = "";
+static const char buttonbar[]  = "";
 static const BarRule barrules[] = {
 	/* monitor, bar, alignment, widthfn, drawfn, clickfn, hoverfn, name */
 	//{  0, 0, BAR_ALIGN_LEFT,   width_tags,      draw_tags,      click_tags,      NULL, "tags"         },
-  {  0, 0, BAR_ALIGN_LEFT,   width_stbutton,  draw_stbutton,  click_stbutton,  NULL, "statusbutton" },
+  //{  0, 0, BAR_ALIGN_LEFT,   width_stbutton,  draw_stbutton,  click_stbutton,  NULL, "statusbutton" },
 	{  0, 0, BAR_ALIGN_LEFT,   width_tags,      draw_tags,      click_tags,      NULL, "tags"         },
 	{  0, 0, BAR_ALIGN_LEFT,   width_ltsymbol,  draw_ltsymbol,  click_ltsymbol,  NULL, "layout"       },
   {  0, 0, BAR_ALIGN_RIGHT,  width_systray,   draw_systray,   click_systray,   NULL, "systray"      },
@@ -190,8 +190,8 @@ static const Key keys[] = {
   //
 	{ MODKEY,                       XK_j,          focusstack,             {.i = +1 } },
 	{ MODKEY,                       XK_k,          focusstack,             {.i = -1 } },
-	{ MODKEY,                       XK_d,          incnmaster,             {.i = +1 } },
-	{ MODKEY,                       XK_f,          incnmaster,             {.i = -1 } },
+	//{ MODKEY,                       XK_d,          incnmaster,             {.i = +1 } },
+	//{ MODKEY,                       XK_f,          incnmaster,             {.i = -1 } },
 	{ MODKEY,                       XK_h,          setmfact,               {.f = -0.05} },
 	{ MODKEY,                       XK_l,          setmfact,               {.f = +0.05} },
 	{ MODKEY,                       XK_z,          zoom,                   {0} },
