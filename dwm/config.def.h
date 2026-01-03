@@ -18,7 +18,7 @@
 // alsa
 #define volup "amixer sset Master 2%+"
 #define voldown "amixer sset Master 2%-"
-#define micmute "amixer set Capture toggle"
+#define micmute "amixer sset Capture toggle"
 #define volmute "amixer sset Master toggle"
 
 /*  pipewire or pulseaudio
@@ -128,7 +128,6 @@ static const Rule rules[] = {
 static const char buttonbar[]  = "";
 static const BarRule barrules[] = {
 	/* monitor, bar, alignment, widthfn, drawfn, clickfn, hoverfn, name */
-	//{  0, 0, BAR_ALIGN_LEFT,   width_tags,      draw_tags,      click_tags,      NULL, "tags"         },
   //{  0, 0, BAR_ALIGN_LEFT,   width_stbutton,  draw_stbutton,  click_stbutton,  NULL, "statusbutton" },
 	{  0, 0, BAR_ALIGN_LEFT,   width_tags,      draw_tags,      click_tags,      NULL, "tags"         },
 	{  0, 0, BAR_ALIGN_LEFT,   width_ltsymbol,  draw_ltsymbol,  click_ltsymbol,  NULL, "layout"       },
