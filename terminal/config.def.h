@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraCode Nerd Font Mono:pixelsize=20:antialias=true:autohint=true";
-static char *font2[] = { "FiraCode Nerd Font:pixelsize=20:antialias=true:autohint=true" };
+static char *font = "Hack Nerd Font Mono:pixelsize=18:antialias=true:autohint=true";
+static char *font2[] = { "Hack Nerd Font:pixelsize=18:antialias=true:autohint=true" };
 static int borderpx = 0;
 
 /*
@@ -48,8 +48,8 @@ int allowaltscreen = 1;
  * near minlatency, but it waits longer for slow updates to avoid partial draw.
  * low minlatency will tear/flicker more, as it can "detect" idle too early.
  */
-static double minlatency = 16;
-static double maxlatency = 33;
+static double minlatency = 10;
+static double maxlatency = 25;
 
 /*
  * Synchronized-Update timeout in ms
