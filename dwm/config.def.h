@@ -34,9 +34,9 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, NULL };
 
 /* font and colors */
 static const char *fonts[] = { 
-  "FiraCode Nerd Font:regular:size=12",
-  "Font Awesome:regular:size=18",
-  "Symbols Nerd Font:regular:size=16"
+  "Hack Nerd Font:regular:size=11",
+  //"Font Awesome:regular:size=18",
+  //"Symbols Nerd Font:regular:size=16"
 };
 
 static char whi[]       = "#eeeeee";
