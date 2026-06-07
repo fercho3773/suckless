@@ -1,8 +1,6 @@
 # st version
 VERSION = 0.8.5
 
-# Customize below to fit your system
-
 # paths
 PREFIX = /usr/local
 MANPREFIX = $(PREFIX)/share/man
@@ -27,7 +25,7 @@ LIBS = -L$(X11LIB) -lm -lrt -lX11 -lutil -lXft -lgd \
        `$(PKG_CONFIG) --libs harfbuzz`
 
 # flags
-CFLAGS = -std=c99 -pedantic -Wall -Os -flto
+CFLAGS = -std=c99 -pedantic -Wall -Os -flto -march=native
 STCPPFLAGS = -DVERSION=\"$(VERSION)\" -DICON=\"$(ICONPREFIX)/$(ICONNAME)\" -D_XOPEN_SOURCE=600
 STCFLAGS = $(INCS) $(STCPPFLAGS) $(CPPFLAGS) $(CFLAGS)
 STLDFLAGS = $(LIBS) $(LDFLAGS)

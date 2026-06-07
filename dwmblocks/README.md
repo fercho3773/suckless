@@ -1,9 +1,5 @@
-# dwmblocks-async
-
 A [`dwm`](https://dwm.suckless.org) status bar that has a modular, async
 design, so it is always responsive. Imagine `i3blocks`, but for `dwm`.
-
-![A lean config of dwmblocks-async.](preview.png)
 
 ## Features
 
