@@ -3,3 +3,4 @@
 *.orig
 *.rej
 config.h
+dwmblocks/build/

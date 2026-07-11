@@ -1,8 +1,8 @@
 #define CONFIG_H
 
-#define DELIMITER "  "               // Delimiter for blocks.
+#define DELIMITER " | "               // Delimiter for blocks.
 #define MAX_BLOCK_OUTPUT_LENGTH 40    // Ammount of Unicode characters a block can output.
-#define CLICKABLE_BLOCKS 1            // Blocks are clickable.
+#define CLICKABLE_BLOCKS 0            // Blocks are clickable.
 #define LEADING_DELIMITER 1           // Control whether a leading delimiter should be prepended to the status.
 #define TRAILING_DELIMITER 1          // Control whether a trailing delimiter should be appended to the status
 
