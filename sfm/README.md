@@ -77,4 +77,4 @@ and (re)compiling the source code. This keeps it fast, secure and simple.
 
 
 ## License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fafify%2Fsfm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fafify%2Fsfm?ref=badge_large)
+Read the license file
