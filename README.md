@@ -23,7 +23,7 @@ Each software contents its original license. Check the LICENSE file inside each 
 - [luke's dmenu](https://github.com/LukeSmithxyz/dmenu)
 - [dwmblocks async](https://github.com/UtkarshVerma/dwmblocks-async)
 - [dwm flexipatch](https://github.com/bakkeby/dwm-flexipatch)
-- [simple file maanager](https://github.com/afify/sfm)
+- [simple file manager](https://github.com/afify/sfm)
 - [slock flexipatch](https://github.com/bakkeby/slock-flexipatch)
 - [soap](https://git.2f30.org/soap/)
 - [suckless website](https://suckless.org/)
